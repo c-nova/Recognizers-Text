@@ -1,112 +1,134 @@
 [
-{
+  {
   "Input": "私は29歳です。",
-  "NotSupported": "javascript,python",
   "Results": [
     {
       "Text": "29歳",
       "TypeName": "age",
       "Resolution": {
-        "value": "29",
-        "unit": "Year"
+        "unit": "Year",
+        "value": "29"
       }
     }
-  ]
-}
-,
-{
-  "Input": "これは、赤ちゃんがわずか10ヶ月だったときに起こった",
-  "NotSupported": "javascript,python",
+    ],
+  "Comment": "Good"
+  },
+  {
+  "Input": "これは、赤ちゃんがわずか10ヶ月のときに起こった",
   "Results": [
     {
       "Text": "10ヶ月",
       "TypeName": "age",
       "Resolution": {
-        "value": "10",
-        "unit": "Month"
+        "unit": "Month",
+        "value": "10"
       }
     }
-  ]
-}
-,
-{
-  "Input": "12月初旬に生まれたのはすでに3週間です",
-  "NotSupported": "javascript,python",
+    ],
+  "Comment": "Good"
+  },
+  {
+  "Input": "12月初旬に生まれた子はすでに生後3週間です",
   "Results": [
     {
       "Text": "3週間",
       "TypeName": "age",
       "Resolution": {
-        "value": "3",
-        "unit": "Week"
+        "unit": "Week",
+        "value": "3"
       }
     }
-  ]
-}
-,
-{
-  "Input": "彼女は1945年5月8日に生まれ、現在60歳です。",
-  "NotSupported": "javascript,python",
+    ],
+  "Comment": "Good"
+  },
+  {
+  "Input": "彼女は1945年5月8日生まれで、現在60歳です。",
   "Results": [
     {
       "Text": "60歳",
       "TypeName": "age",
       "Resolution": {
-        "value": "60",
-        "unit": "Year"
+        "unit": "Year",
+        "value": "60"
       }
     }
-  ]
-}
-,
-{
-  "Input": "彼女はもう7歳になったので,小学校に行くことができた",
-  "NotSupported": "javascript,python",
+    ],
+  "Comment": "Good"
+  },
+  {
+  "Input": "彼女はもう7歳だったので,小学校に行くことができた",
   "Results": [
     {
       "Text": "7歳",
       "TypeName": "age",
       "Resolution": {
-        "value": "7",
-        "unit": "Year"
+        "unit": "Year",
+        "value": "7"
       }
     }
-  ]
-}
-,
-{
+    ],
+  "Comment": "Good"
+  },
+  {
   "Input": "90日齢の子供は病院に行って検査をするべきです",
-  "NotSupported": "javascript,python",
   "Results": [
     {
       "Text": "90日齢",
       "TypeName": "age",
       "Resolution": {
-        "value": "90",
-        "unit": "Day"
+        "unit": "Day",
+        "value": "90"
       }
     }
-  ]
-}
-,
-{
-  "Input": "70-90日齢の子は、テストのために病院に行く必要があります",
-  "NotSupported": "javascript,python",
+    ],
+  "Comment": "Good"
+  },
+  {
+  "Input": "日齢120日の子供は予防接種を受けます",
+  "Results": [
+    {
+      "Text": "日齢",
+      "TypeName": "age",
+      "Resolution": {
+        "unit": "Day",
+        "value": null
+      }
+    }
+    ],
+  "Comment": "Wrong value, it should be: 120"
+  },
+  {
+  "Input": "日齢３６０-４２０日の子は、およそ12kgくらいの体重です",
+  "Results": [
+    {
+      "Text": "日齢",
+      "TypeName": "age",
+      "Resolution": {
+        "unit": "Day",
+        "value": null
+      }
+    }
+    ],
+  "Comment": "Wrong value, it should be: 360, 420"
+  },
+  {
+  "Input": "70-90日齢の子は、検査のために病院に行く必要があります",
   "Results": [
     {
       "Text": "90日齢",
       "TypeName": "age",
       "Resolution": {
-        "value": "90",
-        "unit": "Day"
+        "unit": "Day",
+        "value": "90"
       }
     }
-  ]
-}
-,
-{
+    ],
+  "Comment": "Wrong value, it should be: 70, 90"
+  },
+  {
   "Input": "完成に一〇年の歳月を要する",
-  "NotSupported": "javascript,python",
-  "Results": []
-}
+  "Results": [
+    ],
+  "Comment": "Good"
+  }
 ]
